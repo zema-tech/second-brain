@@ -23,4 +23,17 @@ Zema has been heavily focused on the **nebbo zone** Discord server (for Italian 
 
 **ZemaBot** (multi-server Discord bot, repo under `zema-tech`) has been designed with Supabase storage, Groq-powered AI features (Architetto IA, chat assistant, automod, ticket triage), and a modular cog architecture. Hosting settled on **Bot-Hosting.net** (one free bot, no card) and **Wispbyte** for stable 24/7 Python hosting. R.E.D.T.I.E. (the primary Drew's Empire bot) is the more production-grade bot with confirmed-working cogs: `ticket_creation`, `ai_triage`, and others.
 
-(See full original memory in source export for complete detail on OMNICORE, Hermes, multi-agent architecture, security learnings, and current priorities.)
+**OMNICORE / multi-agent platform**
+
+Zema is building OMNICORE, an ambitious multi-agent AI platform hosted on Vercel. Central orchestrator J.A.R.V.I.S. coordinates specialist agents (E.D.I.T., M.I.N.E., P.R.O.M.P.T., A.R.T.). Goals include multi-model routing, per-agent neural memory (Hermes-style), plugin/connector/skills system, and eventual public launch.
+
+**Key learnings & principles**
+
+- Multi-password auth system audited and confirmed secure; known gaps include API keys in localStorage, fragile verifyPassword, CSP with unsafe-inline/eval, client-side-only approval for critical actions.
+- Human-approval model for AI actions (read / write / critical) is a strong architectural decision.
+- Primary workflow: Grok generates and fixes code → Claude audits real results on GitHub and Vercel using live connectors.
+- Zema works primarily from Android tablet; prefers browser-based and cloud-native tools.
+
+**Approach & patterns**
+
+Grok generates code; Claude reviews actual commits and deployments. Scope reduction and explicit open decisions help when too many threads accumulate. The M.I.N.E. control panel evolved from a base + Groq AI-powered Minecraft hosting platform concept with Pterodactyl/Pelican and Docker support, before becoming the Falix-connected admin panel it is today.
