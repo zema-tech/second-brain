@@ -1,6 +1,6 @@
 ---
 name: zemabot
-description: Multi-server Discord bot with Supabase storage and Groq AI features; read for bot architecture and features
+description: Multi-server Discord bot with Supabase storage and Groq AI features
 sources: [backfill]
 aliases: [ZemaBot]
 ---
