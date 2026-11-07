@@ -12,3 +12,5 @@ aliases: [OMNICORE, omnicore-agent, JARVIS]
 - [stated] A.R.T. — design agent
 - [stated] Full-stack TanStack Start application using Radix UI, Tailwind CSS, and custom oklch-based design tokens per section
 - [stated] Long-term goal: make the platform public and announce it on X (Twitter), after a private polish phase
+- [stated] Active repos: zema-tech/omnicore-agent and zema-tech/m.i.n.e.-control-center
+- [stated] Composio is the active MCP/tool connector; Vercel AI Gateway preferred for multi-provider LLM
