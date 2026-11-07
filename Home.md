@@ -5,13 +5,24 @@ aliases: [MOC, Map of Content, cervello, brain]
 
 # 🧠 Second Brain — Zema
 
-> Vault generato dall'export Claude · struttura stile Obsidian
+> Knowledge Layer (Livello 3) per agenti AI  
+> Metodo ispirato a Callum / Waterlitz — memoria a 3 livelli
+
+## Avvio rapido per agenti
+- [[agents/USER|USER]] · [[agents/SOUL|SOUL]] · [[agents/MEMORY|MEMORY]]
+- [[ARCHITECTURE]]
+
+## Memoria strutturata
+- [[memory/working/Working Memory|Working]]
+- [[memory/episodic/Episodic Memory|Episodic]]
+- [[memory/semantic/Semantic Memory|Semantic]]
+- [[memory/scratchpad/Scratchpad|Scratchpad]]
 
 ## Profilo
 - [[profile]]
 
-## Aree principali
-- [[areas/agente-ia-personale-perchance|Agente IA personale (Perchance → standalone)]]
+## Aree
+- [[areas/agente-ia-personale-perchance|Agente IA personale]]
 - [[areas/omnicore-ia|OMNICORE / IA multi-agent]]
 - [[areas/omnicore-hub|Omnicore Hub]]
 - [[areas/mine-control-center|M.I.N.E. Control Center]]
@@ -26,10 +37,10 @@ aliases: [MOC, Map of Content, cervello, brain]
 - [[areas/hermes-agent|Hermes Agent]]
 - [[areas/pelican-mcp|Pelican MCP]]
 - [[areas/website-mode-server|Website Mode Server]]
-- [[areas/dominio-game|Dominio: Costruisci e Conquista]]
-- [[areas/presentazione-overtourism|Presentazione Overtourism]]
+- [[areas/dominio-game|Dominio]]
+- [[areas/presentazione-overtourism|Overtourism]]
 - [[areas/n8n-render|n8n su Render]]
-- [[areas/minicpm-chat-space|MiniCPM Chat Space]]
+- [[areas/minicpm-chat-space|MiniCPM]]
 - [[areas/new-horizons|New Horizons]]
 - [[areas/governo-mondiale|Governo mondiale]]
 - [[areas/costituzione-pdf|Costituzione PDF]]
@@ -41,16 +52,16 @@ aliases: [MOC, Map of Content, cervello, brain]
 - [[people/nebbo-riccio|nebbo_riccio]]
 
 ## Topics
-- [[topics/tooling|Tooling & workflow]]
-- [[topics/gaming|Gaming / Minecraft]]
+- [[topics/tooling|Tooling]]
+- [[topics/gaming|Gaming]]
 - [[topics/recent-work|Recent work]]
 
-## Progetti Claude
-- [[projects/019f9ece-b7c9-702f-87b2-12b1af127c11/index|mine platform project]]
-  - [[projects/019f9ece-b7c9-702f-87b2-12b1af127c11/overview|Overview]]
-  - [[projects/019f9ece-b7c9-702f-87b2-12b1af127c11/ways-of-working|Ways of working]]
-  - [[projects/019f9ece-b7c9-702f-87b2-12b1af127c11/security-and-learnings|Security & learnings]]
-  - [[projects/019f9ece-b7c9-702f-87b2-12b1af127c11/project-memory|Project memory]]
+## Progetti
+- [[projects/019f9ece-b7c9-702f-87b2-12b1af127c11/index|mine platform / OMNICORE]]
 
-## Snapshot completo
+## Prompt & setup
+- [[prompts/Agent Bootstrap Prompt]]
+- [[prompts/Hermes Memory Setup]]
+
+## Snapshot
 - [[00 - Claude Memory Snapshot]]
